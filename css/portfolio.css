@@ -20,7 +20,13 @@
             color: white;
             animation: change 3s ease-in-out infinite;
         }
-
+        @media (max-width: 1260px) {
+            .timeline::before {
+                height: 3px;
+                right:1rem;
+                left: 3rem;
+            }
+        }
         @keyframes change {
             0% {
                 color: red;
@@ -389,5 +395,6 @@
         .card {
             border: 2px solid black;
         }
+
 
 
