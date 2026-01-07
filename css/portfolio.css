@@ -20,13 +20,7 @@
             color: white;
             animation: change 3s ease-in-out infinite;
         }
-        @media (max-width: 1260px) {
-            .timeline::before {
-                height: 3px;
-                right:1rem;
-                left: 3rem;
-            }
-        }
+
         @keyframes change {
             0% {
                 color: red;
@@ -266,7 +260,7 @@
         .timeline::before {
             content: '';
             position: absolute;
-            width: 190vh;
+            max-width: 94%;
             top: 18px;
             left: 3rem;
             right: 0;
@@ -274,7 +268,15 @@
             background: #000;
         }
 
-                .timeline-startbar {
+        @media (max-width: 1260px) {
+            .timeline::before {
+                height: 3px;
+                right:1rem;
+                left: 3rem;
+            }
+        }
+
+        .timeline-startbar {
             position: relative;
             font-size: 40px;
             bottom: 11px;
@@ -343,6 +345,7 @@
             font-family: "Roboto Condensed", sans-serif;
             font-size: 1.9vh;
         }
+
         .contact-card {
             width: 85%;
             height: 17%;
@@ -395,8 +398,3 @@
         .card {
             border: 2px solid black;
         }
-
-
-
-
-
