@@ -255,7 +255,17 @@
             margin: 4rem 0;
             padding: 0 2rem;
         }
-
+        
+        .timeline::before {
+            content: '';
+            position: absolute;
+            max-width: 94%;
+            top: 18px;
+            left: 3rem;
+            right: 0;
+            height: 4px;
+            background: #000;
+        }
         @media (max-width: 1260px) {
             .timeline::before {
                 height: 3px;
@@ -386,5 +396,6 @@
         .card {
             border: 2px solid black;
         }
+
 
 
