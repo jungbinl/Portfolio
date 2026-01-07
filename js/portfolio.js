@@ -318,3 +318,41 @@ form.addEventListener("submit", async function (e) {
     }
 });
 
+const bt_edu1 = document.getElementById("bt-edu1");
+const bt_edu2 = document.getElementById("bt-edu2");
+const bt_work1 = document.getElementById("bt-work1");
+const bt_work2 = document.getElementById("bt-work2");
+const bt_work3 = document.getElementById("bt-work3");
+const bt_work4 = document.getElementById("bt-work4");
+const bt_club1 = document.getElementById("bt-club1");
+const bt_club2 = document.getElementById("bt-club2");
+const bt_club3 = document.getElementById("bt-club3");
+const bt_club4 = document.getElementById("bt-club4");
+
+const edu = [bt_edu1, bt_edu2];
+const work = [bt_work1, bt_work2, bt_work3, bt_work4];
+const club = [bt_club1, bt_club2, bt_club3, bt_club4];
+const eduH = document.getElementById("carousel-edu").offsetTop;
+const workH = document.getElementById("carousel-work").offsetTop;
+const clubH = document.getElementById("carousel-club").offsetTop;
+
+document.addEventListener('DOMContentLoaded', function () {
+    edu.forEach(a => a.addEventListener('click', function(e){
+        window.scrollTo({
+            top: eduH - navbarHeight,
+            behavior: 'smooth'
+        });
+    }));
+    work.forEach(a => a.addEventListener('click', function(e){
+        window.scrollTo({
+            top: workH - navbarHeight,
+            behavior: 'smooth'
+        });
+    }));
+    club.forEach(a => a.addEventListener('click', function(e){
+        window.scrollTo({
+            top: clubH - navbarHeight,
+            behavior: 'smooth'
+        });
+    }));
+});
