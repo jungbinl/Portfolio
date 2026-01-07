@@ -235,17 +235,17 @@
 
         .section-title {
             font-family: "Rubik Spray Paint", system-ui;
-            font-size: 60px;
+            font-size: 6vh;
         }
 
         .section-subtitle {
             font-family: "Titan One", sans-serif;
-            font-size: 30px;
+            font-size: 3.3vh;
         }
 
         .section-main {
             font-family: "Roboto Condensed", sans-serif;
-            font-size: 20px;
+            font-size: 2.3vh;
         }
 
         .timeline {
@@ -389,4 +389,5 @@
         .card {
             border: 2px solid black;
         }
+
 
