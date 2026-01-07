@@ -274,7 +274,7 @@
             background: #000;
         }
 
-        .timeline-startbar {
+                .timeline-startbar {
             position: relative;
             font-size: 40px;
             bottom: 11px;
@@ -330,19 +330,19 @@
         .timeline-date {
             font-family: "Roboto Condensed", sans-serif;
             font-weight: bold;
+            font-size: 1.7vh;
         }
 
         .timeline-event {
             font-family: "Roboto Condensed", sans-serif;
             margin-top: 0.25rem;
-            font-size: 0.95rem;
+            font-size: 1.5vh;
         }
 
         .timeline-title {
             font-family: "Roboto Condensed", sans-serif;
-            font-size: 1.2rem;
+            font-size: 1.9vh;
         }
-
         .contact-card {
             width: 85%;
             height: 17%;
@@ -395,6 +395,7 @@
         .card {
             border: 2px solid black;
         }
+
 
 
 
