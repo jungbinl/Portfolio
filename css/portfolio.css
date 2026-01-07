@@ -260,7 +260,7 @@
         .timeline::before {
             content: '';
             position: absolute;
-            width: 120rem;
+            width: 190vh;
             top: 18px;
             left: 3rem;
             right: 0;
@@ -389,3 +389,4 @@
         .card {
             border: 2px solid black;
         }
+
